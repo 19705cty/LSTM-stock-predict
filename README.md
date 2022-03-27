@@ -1,6 +1,5 @@
 ## This is a project using LSTM recurrent neural network, for practice and learing only!
 
-## This project is really fun for a business background person
 #### We expected more epochs and more data may increase the accuray. However, if we compare "20000 days/ 10 epoch" and "3000 days/ 1 epoch", the latter one present better accuracy.
 #### I believe one of the reason is, after the 2008 financial crisis, the Fed knew how to stimulate the market, so the market has been acting as a different way. Therefore, the more data you use to train before that period, the more bias will get into model
 #### With NUM_DAYS = 20000 and epochs = 1, we get lowest rmse. Which means that the data during 20000 and 3000 still be helpful
