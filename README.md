@@ -27,7 +27,7 @@ import pandas as pd
 import sklearn.preprocessing as prep
 
 import warnings
-warnings.filterwarnings("ignore")
+# warnings.filterwarnings("ignore")
 ```
 
 
@@ -218,7 +218,7 @@ plt.legend(['Train', 'Valid', 'Predictions'], loc='lower right')
 plt.show()
 
 
-## This model trained with more data and more epochs
+## NUM_DAYS = 3000 / epochs = 1 / rmse = 255.347
 ```
 
 
@@ -227,7 +227,7 @@ plt.show()
     
 
 
-### Below is the chart for NUM_DAY = 20000, epochs = 1
+### Below is the chart for NUM_DAY = 20000, epochs = 1, rsme = 35.651
 
 
 ```python
